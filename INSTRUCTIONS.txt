@@ -1,0 +1,15 @@
+Instructions for viewing production build.
+
+You must have node installed so you can use npm.
+
+In the brew-maker-9000 folder
+-------------------------------------
+To view the development version:
+
+	1) npm install
+	2) npm start
+
+To view the production version:
+
+	1)  npm install -g serve
+	2)  serve -s build
